@@ -28,7 +28,7 @@ h1{
   position: fixed;
   bottom: 20px;
   right: 30px;
-  z-index: 99;
+  z-index: 99999;
   font-size: 18px;
   border: none;
   outline: none;
@@ -47,12 +47,7 @@ h1{
     height: 88px;
     width: 270px;
     top: 9px;
-}
-header{
-
-	/*text-align: center;*/
-	
-}
+} 
 #videoBG{
 	width: 100%;
 	height: auto;
@@ -162,13 +157,8 @@ nav a{
 }
 .cool{
 	visibility: hidden;
-	font-size: 18px;
-
-}
-.land_button:hover{
-
-}
-
+	font-size: 18px; 
+} 
 .navbar-expand-md .navbar-nav .nav-link {
     padding: 5px 30px !important;
 }
@@ -177,10 +167,7 @@ nav a{
     position: absolute;
     right: 15px;
     bottom: 71px;
-}
-.social_landing ul {
-
-}
+} 
 .social_landing ul li{
 	list-style: none;
 	float: left;
@@ -254,11 +241,10 @@ nav a{
 .about_ul li{
 	list-style: circle;
 }
-/*about area start*/
-
+/*about area start*/ 
 /*speakers area*/
 #speaker_area{
-	background-image: url('../img/33.png');
+	background-image: url('../img/33.jpg');
 	background-attachment: fixed;
 	background-size: cover;
 }
@@ -271,8 +257,7 @@ nav a{
 	margin: 39px auto;
 }
 .col-lg-4.botm-margn {
-    margin: 27px auto;
-
+    margin: 27px auto; 
 }
 .transperent_block {
 	padding: 0px;
@@ -283,8 +268,8 @@ nav a{
 	box-shadow: 0px 4px 30px 0px;
 }
 .transperent_block img {
-	width:100%;
-	height: 100%;
+	width: 100%;
+    height: auto;
 }
 .transperent_block:hover .black_hover_block {
 	opacity: 1;
@@ -321,19 +306,17 @@ nav a{
 .transperent_block .black_hover_block_text {
 	z-index: 10;
 	color: #fff;
-	position: absolute;
-	 
+	position: absolute; 
 	text-align: center;
 	top: 12px;
-	width: 100%;
-	
+	width: 100%; 
 }
 .black_hover_block_text h5{
 	font-weight: 700;
 }
 /*sign up area*/
 #signup_area{
-	background-image: url('../img/123.png');
+	background-image: url('../img/123.jpg');
 	background-size: cover;
 }
 .col-md-6.sig_par_text {
@@ -373,8 +356,9 @@ nav a{
 /*signin area end*/
 /*presenter area start*/
 .demo{
-	background-image: url('../img/bg.png');
+	background-image: url('../img/bg.jpg');
 	text-align: center;
+	background-size: cover;
 }
 .rotateslider-container h1{
 	font-weight: 700;
@@ -388,8 +372,7 @@ nav a{
   margin-left: auto;
   margin-right: auto;
   background-color: transparent;
-}
-
+} 
 .rotateslider-container .rotateslider-item {
   position: absolute;
   left: 50%;
@@ -402,18 +385,15 @@ nav a{
   filter: blur(0px);
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
-}
-
+} 
 .rotateslider-container .rotateslider-item.next {
   left: 80%;
   opacity: 1;
-}
-
+} 
 .rotateslider-container .rotateslider-item.prev {
   left: 20%;
   opacity: 1;
-}
-
+} 
 .rotateslider-container .rotateslider-item.now {
   opacity: 1;
   -webkit-filter: blur(0px);
@@ -423,8 +403,7 @@ nav a{
   -webkit-transform: translateY(-50%) translateX(-50%) scale(1);
   -ms-transform: translateY(-50%) translateX(-50%) scale(1);
   transform: translateY(-50%) translateX(-50%) scale(1);
-}
-
+} 
 .rotateslider-container .arrow {
   display: inline-block;
   width: 50px;
@@ -441,10 +420,7 @@ nav a{
 .rotateslider-container .arrow.left { left: 0; }
 
 .rotateslider-container .arrow.right { right: 0; }
-
-.rotateslider-item{
-
-}
+ 
 .rotateslider-item img{
 border-radius: 10px;
 height: 300px;
@@ -457,18 +433,12 @@ height: 300px;
 	width: 100%;
 	text-align: center;
 	border-radius: 0 0 10px 10px;
-}
-.presenter_text h5{
-
-}
-.presenter_text p{
-
-}
+} 
 /*presenter area end*/
 /*Event partners start*/
 .partner{
 	text-align: center;
-	background-image: url('../img/23.png');
+	background-image: url('../img/23.jpg');
 	padding-bottom: 60px;
 }
 .card{
@@ -481,15 +451,14 @@ height: 300px;
 .card-img-top{
 	padding: 25px;
 }
-.part{
-	
+.part{ 
 	background: linear-gradient(to right, #1C275F 0%,#2A3A8D 100%);
 }
 /*Event partners end*/
 /*sponsor area start*/
 .sponsor{
 	text-align: center;
-	background-image: url('../img/34534.png');
+	background-image: url('../img/sopnsor.jpg');
 	padding: 60px;
 	color: #fff;
 	background-size: cover;
@@ -499,11 +468,9 @@ height: 300px;
 	height: 300px;
 }
 /*sponsor area end*/
-/*conference area start*/
-
-.conference{
-	
-	background-image: url('../img/23.png');
+/*conference area start*/ 
+.conference{ 
+	background-image: url('../img/23.jpg');
 	padding: 60px;
 	color: #fff;
 	background-size: cover;
@@ -512,10 +479,7 @@ height: 300px;
 .conference h1{
 	text-align: center;
 	padding:30px;
-}
-.conference p{
-	
-}
+} 
 .conference ul li {
     line-height: 20px;
     padding: 2px 0px;
@@ -525,7 +489,7 @@ height: 300px;
 /*conference area END*/
 /*submit area start*/
 .submit_area{	
-	background-image: url('../img/5434.png');
+	background-image: url('../img/5434.jpg');
 	padding: 60px;
 	color: #fff;
 	background-size: cover;
@@ -596,8 +560,7 @@ height: 300px;
 /* RESPONSIVE */
 @media only screen and (max-width : 992px) {
 	
-}
-
+} 
 @media only screen and (max-width : 550px) {
 	.rotateslider-container {
 		width: 340px;
@@ -610,7 +573,7 @@ height: 300px;
   	left: 20%;
   	opacity: 0;
 }
+}
 @media only screen and (max-width : 399px) {
 	
 }
-
